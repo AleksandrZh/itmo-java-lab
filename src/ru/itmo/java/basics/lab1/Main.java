@@ -24,7 +24,7 @@ public class Main {
 
     //Task.3
         int number = 10500;
-        int result = (number/10)/10;
+        double result = (double)(number/10)/10;
         System.out.println(MessageFormat.format("Output    Task.3:  {0}",result));
 
     //Task.4
