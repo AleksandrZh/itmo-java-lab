@@ -20,11 +20,11 @@ public class Main {
         double expression1 = (46 + 10) * (10 /3d);
         short expression2 = 29 * 4 * -15;
         System.out.println(MessageFormat.format("Output Task.2 expression1: {0} :",expression1));
-        System.out.println(MessageFormat.format("Output Task.2 expression2: {0} :",expression2));
+        System.out.println(MessageFormat.format("Output Task.2  expression2: {0} :",expression2));
 
     //Task.3
         int number = 10500;
-        int result = (number/10)/10;
+        double result = ((double)number/10)/10;
         System.out.println(MessageFormat.format("Output    Task.3:  {0}",result));
 
     //Task.4
