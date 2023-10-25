@@ -25,7 +25,7 @@ public class Main {
     //Task.3
         int number = 10500;
         int result = (number/10)/10;
-        System.out.println(MessageFormat.format("Output Task.3: {0}",result));
+        System.out.println(MessageFormat.format("Output Task.3:  {0}",result));
 
     //Task.4
         double result1 = 3.6 * 4.1 * 5.9; // можно и float  - float result1 = (float)(3.6 * 4.1 * 5.9);
