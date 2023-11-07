@@ -11,10 +11,10 @@ public class Main {
 
     }
 
-    public static void unicShow(int[] array){
+    public static void unicShow(int[] array) {
         for (int i = 0; i < array.length; i++) {
             for (int j = 0; j < array.length; j++) {
-                if (array[i] < array[j]){
+                if (array[i] < array[j]) {
                     int tempi = array[i];
                     int tempj = array[j];
                     array[i] = tempj;
@@ -22,11 +22,11 @@ public class Main {
                 }
             }
         }
-        for (int i = 0; i < array.length-1; i++) {
-            if (array[i] == array[i + 1]){
+        for (int i = 0; i < array.length - 1; i++) {
+            if (array[i] == array[i + 1]) {
                 i += 1;
                 continue;
-            }else {
+            } else {
                 System.out.println(array[i]);
                 break;
             }

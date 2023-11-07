@@ -1,4 +1,5 @@
 package ru.itmo.java.basics.lab4.Lab4_1_5;
+
 import java.text.MessageFormat;
 import java.util.Arrays;
 
@@ -9,6 +10,7 @@ public class Main {
         System.out.println(show(array));
 
     }
+
     public static boolean show(int[] digit) {
 
         System.out.println(MessageFormat.format("array = {0} ", Arrays.toString(digit)));

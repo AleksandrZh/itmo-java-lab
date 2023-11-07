@@ -10,15 +10,14 @@ public class Main {
 
     }
 
-    public static void compare(int[] array){
+    public static void compare(int[] array) {
 
-        for (int i = 0; i < array.length; i++ ) {
-            if (array[i] == 3 || array[i] == 1){
+        for (int i = 0; i < array.length; i++) {
+            if (array[i] == 3 || array[i] == 1) {
                 System.out.println(MessageFormat.format("Массив содержит число {0} ", array[i]));
             }
         }
     }
-
 
 
 }

@@ -20,12 +20,12 @@ public class Main {
 
     }
 
-    public static Boolean isSum(int numb1, int numb2, int numb3){
+    public static Boolean isSum(int numb1, int numb2, int numb3) {
 
-         boolean isSum = numb1 + numb2 == numb3;
-         if (isSum){
-             return isSum;
-         }
+        boolean isSum = numb1 + numb2 == numb3;
+        if (isSum) {
+            return isSum;
+        }
         return isSum;
     }
 

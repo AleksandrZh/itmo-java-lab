@@ -12,17 +12,17 @@ public class Main {
 
     }
 
-    public static void checkSort(int[] array){
+    public static void checkSort(int[] array) {
         int count = 0;
-        for (int i = 0; i < array.length - 1 ; i++) {
-            if (array[i] > array[i + 1]){
+        for (int i = 0; i < array.length - 1; i++) {
+            if (array[i] > array[i + 1]) {
                 System.out.println("Please, try again");
                 break;
-            }else {
+            } else {
                 count++;
             }
         }
-        if (count == array.length-1){
+        if (count == array.length - 1) {
             System.out.println("ОК");
         }
 

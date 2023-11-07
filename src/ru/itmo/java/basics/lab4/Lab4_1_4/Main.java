@@ -18,10 +18,10 @@ public class Main {
         System.out.println(isCompare(5, 10, 15));
     }
 
-    public static Boolean isCompare(int numb1, int numb2, int numb3){
+    public static Boolean isCompare(int numb1, int numb2, int numb3) {
 
-        boolean isCompare = numb1 < numb2  && numb2 < numb3;
-        if (isCompare){
+        boolean isCompare = numb1 < numb2 && numb2 < numb3;
+        if (isCompare) {
             return isCompare;
         }
         return isCompare;
