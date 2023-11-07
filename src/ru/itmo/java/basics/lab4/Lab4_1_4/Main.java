@@ -20,10 +20,6 @@ public class Main {
 
     public static Boolean isCompare(int numb1, int numb2, int numb3) {
 
-        boolean isCompare = numb1 < numb2 && numb2 < numb3;
-        if (isCompare) {
-            return isCompare;
-        }
-        return isCompare;
+        return numb1 < numb2 && numb2 < numb3;
     }
 }
